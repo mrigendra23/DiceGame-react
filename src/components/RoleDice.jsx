@@ -16,8 +16,10 @@ export default RoleDice;
 const DiceContainer = styled.div`
   margin-top: 48px;
   display: flex;
-  flex-direction: column;
+  
   align-items: center;
+
+  flex-direction: column;
 
   .dice {
     cursor: pointer;
